@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <link href="style.css"
+            rel="stylesheet"
+            type="text/css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab03</title>
+</head>
+<style>
+  
+
+
+    p    {color: rgb(13, 76, 214);}
+</style>
+
+
+<body>
+    <div style="width:100%;overflow:hidden;height:60px">
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/mainpage.php';">MainPage</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/table.php';">Exercise1</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/quiz.html';">Exercise2</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/front.html';">Exercise3</button>
+       
+      </div>
+    
+  <center>
+    <br><br>
+    <p><font size = "7">Gameforever</font></p>
+    <form action="back.php" method="post" onsubmit="return checking()">
+
+    <div >
+     Top selling Game<br>
+     <img src="2.jpg" height="200" width="200"><br>
+     No1.DMC ($60)<br>
+     <input type="text" name = "DMC" id= "DMC" value="0"/><br>
+     <img src="3.jpg" height="200" width="200"><br>
+     No1.Anthem ($45)<br>
+     <input type="text" name = "Anthem" id= "Anthem" value="0"/><br>
+     <img src="4.jpg" height="200" width="200"><br>
+     No1.SSDT ($100)<br>
+     <input type="text" name = "SSDT" id= "SSDT" value="0"/><br><br>
+     
+     <form>
+        <p class = "user"> Username: 
+        <input type="email" id= "username" name="username" value="" placeholder="Enter your email"><br>
+        Password:
+     <input type="text" id="password" name="password" value="" placeholder="input your password"><br>
+        <label><input type="radio" name="Shipping" id="Shipping" value="0"/>Free 7 day<br></label>
+        <label><input type="radio" name="Shipping" id="Shipping" value="50"/>$50.00 over night<br></label>
+        <label><input type="radio" name="Shipping" id="Shipping" value="5"/>$5.00 three day<br></label><br>
+        <input type="submit" value="Submit">
+        </form>
+    </p>
+    
+    </div>
+    
+     
+
+</body>
+<script type="text/javascript" src="check.js"></script>
+</html>

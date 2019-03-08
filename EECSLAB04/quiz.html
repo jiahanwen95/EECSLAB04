@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab03</title>
+</head>
+<style>
+  .button{
+    border-style: solid;
+    border-radius: 25% 10%;;
+    background-color: khaki;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+    body {background-color: rgb(216, 103, 27);}
+    p    {color: rgb(13, 76, 214);}
+</style>
+<body>
+    <div style="width:100%;overflow:hidden;height:60px">
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/mainpage.php';">MainPage</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/table.php';">Exercise1</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/quiz.html';">Exercise2</button>
+        <button class = "button" onclick="window.location.href = 'https://people.eecs.ku.edu/~h539j862/lab04/front.html';">Exercise3</button>
+               
+      </div>
+  <center>
+    <br><br>
+    <p><font size = "7">Hanwen Jia's Quiz</font></p>
+    <div >
+        <form action="quiz.php" method="post"><p>
+    1: What is evilest thing in the world?<br>
+        <label><input type="radio" name="M" id="11" value="human"/>a). human <br></label>
+        <label><input type="radio" name="M" id="12" value="black hole"/>b). black hole<br></label>
+        <label><input type="radio" name="M" id="13" value="devil"/>c). devil<br></label>
+        <label><input type="radio" name="M" id="14" value="money"/>d). money<br></label>
+        <br>
+     2: What is the most powerful weapon?<br>
+        <label><input type="radio" name="O" id="21" value="gun"/>a). gun<br></label>
+        <label><input type="radio" name="O" id="22" value="bomb"/>b). bomb<br></label>
+        <label><input type="radio" name="O" id="23" value="rumor"/>c). rumor<br></label>
+        <label><input type="radio" name="O" id="24" value="money"/>d). money<br></label>
+        <br>    
+       3: What is the best food in the world?<br>
+        <label><input type="radio" name="N" id="31" value="blue cheese"/>a). blue cheese<br></label>
+        <label><input type="radio" name="N" id="32" value="toufu"/>b). toufu<br></label> 
+        <label><input type="radio" name="N" id="33" value="beef"/>c). beef<br></label>
+        <label><input type="radio" name="N" id="34" value="money"/>d). money<br></label>
+        <br>
+        4:Which one is the best game in the world?<br>
+        <label><input type="radio" name="E" id="41" value="LOL"/>a). LOL<br></label>
+        <label><input type="radio" name="E" id="42" value="DOTA"/>b). DOTA<br></label>
+        <label><input type="radio" name="E" id="43" value="Dishonored"/>c). Dishonored<br></label>
+        <label><input type="radio" name="E" id="44" value="GTAV"/>d). GTAV<br></label>
+        <br>
+     5: What is the best language?<br>
+        <label><input type="radio" name="Y" id="51" value="English"/>a). English<br></label>
+        <label><input type="radio" name="Y" id="52" value="spanish"/>b). spanish<br></label>
+        <label><input type="radio" name="Y" id="53" value="French"/>c). French<br></label>
+        <label><input type="radio" name="Y" id="54" value="money"/>d). money<br></label></p>
+        <input type="submit">
+
+    </div>
+    
+</body>
+</html>
